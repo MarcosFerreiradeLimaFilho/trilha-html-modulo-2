@@ -36,7 +36,52 @@ body {
     min-height: 300px;
     padding: 20px;
 }
+
+table {
+    border-collapse: collapse; 
+}
+
+table tbody td{
+    border: 1px solid black;
+}
+
+table thead th{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+table tbody tr:hover td{
+    background-color: darkgrey;
+    cursor: pointer;
+}
 .footer {
     background-color: rgb(211, 198, 255);
     min-height: 150px;
+    
+}
+
+.central-atend {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.telefone {
+    margin-top: 8px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social img {
+    width: 138px;
+    margin-top: 8px
+}
+
+.endereco {
+    text-align: center;
 }
